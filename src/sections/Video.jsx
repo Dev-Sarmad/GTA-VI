@@ -37,7 +37,7 @@ export const Video = () => {
   }, []);
   return (
     <section className="first-vd-wrapper">
-      <div className="h-dvh">
+      <div className="h-dvh ">
         <video
           src="/videos/output1.mp4"
           ref={videoRef}

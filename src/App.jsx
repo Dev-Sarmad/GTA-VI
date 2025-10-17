@@ -5,6 +5,7 @@ import Hero from "./sections/Hero";
 import { Video } from "./sections/Video";
 import Jason from "./sections/Jason";
 import { LuciaVideo } from "./sections/LuciaVideo";
+import Lucia from "./sections/Lucia"
 //when we using the gsap plugins we have to register them first
 gsap.registerPlugin(ScrollTrigger);
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Video />
       <Jason />
       <LuciaVideo />
+      <Lucia />
     </main>
   );
 }
